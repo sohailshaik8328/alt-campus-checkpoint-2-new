@@ -99,7 +99,7 @@ table {
     margin-right: 5%;
 }
 .bottom{
-    margin-top: 100%;
+    margin-top: 330px;
     margin-left: 13%;
 }
 .bottom h1{
@@ -151,12 +151,13 @@ table {
 .img-section{
     display: flex;
     /* align-items: center; */
-    justify-content: space-evenly;
-    margin-top: 3%;
+    justify-content:center;
+    margin-top: 1%;
 }
 .art-left, .art-right{
     width: 40%;
     /* height: 200px; */
+    margin: 15px;
     
 }
 .art-left img, .art-right img{

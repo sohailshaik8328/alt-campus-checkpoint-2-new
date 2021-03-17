@@ -52,7 +52,7 @@ table {
 }
 .banner{
     width: 100%;
-    height: 500px;
+    /* height: 500px; */
     position: relative;
     opacity: 50%;
 }
@@ -81,19 +81,18 @@ table {
     border-radius: 50%;
 }
 
-
-
 /* header css starts */
 
 .header{
-    /* position: fixed; */
+    position: fixed;
     background-color: #FFFFFF;
-    width: 100%;
-    height: 25%;
+    width: 80%;
+    height: 80px;
     margin-top: 2%;
     display: flex;
     justify-content: space-between;
-    border: 1px solid rgba(128, 128, 128, 0.61);
+    box-shadow: -2px 2px 4px rgba(0, 0, 0, 0.7);
+    /* align-items: center; */
     border-radius: 2px;
 }
 .header-left{
@@ -102,14 +101,14 @@ table {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
 }
 .header-right{
     width: 50%;
     height: 100%;
+    margin-right: 20px;
 }
 .logo{
-    width: 45%;
+    width: 49%;
 }
 .flex{
     font-size: 30px;
@@ -123,14 +122,17 @@ table {
 }
 .nav a{
     font-size: 12px;
+    border: 2px solid white;
     text-decoration: none;
     font-weight: 900;
-    padding-top: 6%;
-    padding-right: 7%;
+    /* padding-top: 6%; */
+    /* padding-right: 7%; */
     letter-spacing: 0.5px;
+    padding: 30px 0;
 }
-.home{
+.header-right .home{
     color: red;
+    border-top: 3px solid rgb(236,82,63);
 }
 .services, .portfolio-a, .team, .gallery, .contact-a{
     color: rgba(0, 0, 0, 0.747);
@@ -140,18 +142,17 @@ table {
 
 .banner-bottom{
     text-align: center;
+    margin-top: 34%;
 }
-
 .banner-bottom h1{
     font-size: 30px;
     font-weight: bold;
     color: #FFFFFF;
     margin: auto;
-    margin-top: 14%;
+    /* margin-top: 24%; */
     border-bottom: 1px solid #ffffff8c;
     width: 310px;
     line-height: 40px;
-
 }
 .banner-bottom p{
     font-size: 10px;
@@ -193,10 +194,9 @@ table {
 
 .our-services{
     margin: auto;
-    margin-top: 5%;
+    margin-top: 10%;
 }
-.our-services h1
-{
+.our-services h1{
     font-size: 20px;
     font-weight: 900;
     text-align: center;
@@ -205,9 +205,7 @@ table {
      width: 140px;
      margin: 0 auto;
 }
-
-.our-services p, .portfolio p, .our-team p, .contact-p
-{
+.our-services p, .portfolio p, .our-team p, .contact-p{
     font-size: 13px;
     line-height: 35px;
     text-align: center;
@@ -220,7 +218,7 @@ table {
     height: 200px;
     margin-top: 5%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     color: #FFFFFF;
 }
 .color-1{
@@ -240,7 +238,6 @@ table {
     justify-content: center;
     font-size: 30px;
     background-color: rgb(230,127,49);
-
 }
 .color-3{
     width: 22%;
@@ -263,7 +260,6 @@ table {
 }
 /* our services css ends */
 
-
 /* our portfolio css starts */
 
 .portfolio{
@@ -275,24 +271,23 @@ table {
     font-weight: 900;
     text-align: center;
     color: rgba(0, 0, 0, 0.801);
-     border-bottom: 1px solid black;
-     width: 160px;
-     margin: 0 auto;
+    border-bottom: 1px solid black;
+    width: 160px;
+    margin: 0 auto;
 }
 
 .article-images{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
     margin-top: 3%;
-
 }
 .article-images img{
-    width: 23%;
-    margin: 10px;
+    width: 22%;
+    margin-top: 30px;
 }
 
 /* our portflio css ends */
-
 
 /* our team css starts */
 .our-team{
@@ -303,11 +298,11 @@ table {
     margin: auto;
     margin-top: 3%;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: space-between;
+    /* align-items: center; */
 }
 .article-members img{
-    width: 23%;
+    width: 22%;
     border-radius: 50%;
 }
 .our-team h1{
@@ -318,7 +313,6 @@ table {
      border-bottom: 1px solid black;
      width: 105px;
      margin: 0 auto;
-
 }
 
 /* design skills css starts */
@@ -346,11 +340,9 @@ table {
     align-items: center;
     justify-content: space-between;
     margin-top:3% ;
-    margin-left: 2%;
 }
 .design-left{
     width: 58%;
-
 }
 .design-left .para-1{
     font-size: 13px;
@@ -359,15 +351,13 @@ table {
     padding-top: 4%;
 }
 .design-right{
-    width: 38%;
-
+    width: 30%;
 }
 .gray{
     background-color: rgb(231,231,231);
     width: 300px;
     height: 30px;
     margin: 10px;
-
 }
 .orange{
     background-color: rgb(234,81,62);
@@ -379,9 +369,7 @@ table {
     display: flex;
     align-items: center;
     padding-left: 10px;
-
 }
-
 .orange2{
     background-color: rgb(234,81,62);
     width: 220px;
@@ -392,7 +380,6 @@ table {
     display: flex;
     align-items: center;
     padding-left: 10px;
-
 }
 .orange3{
     background-color: rgb(234,81,62);
@@ -404,7 +391,6 @@ table {
     display: flex;
     align-items: center;
     padding-left: 10px;
-
 }
 .orange4{
     background-color: rgb(234,81,62);
@@ -416,7 +402,6 @@ table {
     display: flex;
     align-items: center;
     padding-left: 10px;
-
 }
 
 /* design skills css ends */
@@ -447,7 +432,6 @@ table {
     line-height: 20px;
     padding-top: 1%;
     color: rgba(0, 0, 0, 0.726);
-
 }
 .map-article-left h5{
     font-size: 12px;
@@ -467,7 +451,6 @@ table {
 .str-4{
     color: black;
 }
-
 .first{
     border: 1px solid gray;
     width: 300px;
@@ -479,7 +462,6 @@ table {
     padding-left: 15px;
     margin: 10px;
     border-radius: 3px;
-
 }
 .second{
     border: 1px solid gray;
@@ -514,7 +496,6 @@ table {
      width: 90px;
      margin: 0 auto;
 }
-
 /* contact css ends */
 
 /* footer css starts */
@@ -541,7 +522,6 @@ footer{
     font-size: 13px;
     color: black;
     font-weight: bolder;
-
 }
 #footer-btn-a{
     color: white;
@@ -549,6 +529,3 @@ footer{
 }
 
 /* footer css ends */
-
-
-
