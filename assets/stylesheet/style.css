@@ -356,6 +356,9 @@ address iframe{
 .send-message-btn {
     background-color: rgb(234,81,62);
     padding: 6px 5px;
+    /* padding-top: 10px; */
+    /* width: 300px; */
+    /* height: 20px; */
     text-align: center;
     color: white;
     font-weight: bolder;
@@ -478,8 +481,9 @@ line-height: 30px;
     margin-top: 10px;
 }
 .aside-left .left-bottom .media-icons i{
-    background-color: white;
-    color: black;
+    background-color: inherit;
+    color: white;
+    border: 1px solid white;
     text-align:center;
     padding:10px;
     border-radius: 50%;
